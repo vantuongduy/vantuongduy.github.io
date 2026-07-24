@@ -1,0 +1,68 @@
+baseURL = "https://vantuongduy.github.io/"
+relativeURLs = false
+canonifyURLs = false
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+summaryLength = 24
+
+theme = "hugo-theme-learn"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+  themeVariant = "workshop"
+  editURL = ""
+  description = "Personal AWS internship report and technical workshop"
+  author = "Văn Tường Duy"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+
+[Languages]
+  [Languages.en]
+    title = "AWS Portfolio Workshop"
+    weight = 1
+    label = "English"
+
+    [[Languages.en.menu.shortcuts]]
+      name = "<i class='fab fa-github'></i> GitHub Portfolio"
+      identifier = "GitHub Portfolio"
+      url = "https://github.com/vantuongduy/vantuongduy.github.io"
+      weight = 10
+
+    [[Languages.en.menu.shortcuts]]
+      name = "<i class='fab fa-aws'></i> AWS Study Group - Blog"
+      identifier = "AWS Study Group"
+      url = "https://awsstudygroup.com"
+      weight = 20
+
+  [Languages.vi]
+    title = "Workshop Portfolio AWS"
+    weight = 2
+    label = "Tiếng Việt"
+
+    [[Languages.vi.menu.shortcuts]]
+      name = "<i class='fab fa-github'></i> GitHub Portfolio"
+      identifier = "GitHub Portfolio VI"
+      url = "https://github.com/vantuongduy/vantuongduy.github.io"
+      weight = 10
+
+    [[Languages.vi.menu.shortcuts]]
+      name = "<i class='fab fa-aws'></i> AWS Study Group - Blog"
+      identifier = "AWS Study Group VI"
+      url = "https://awsstudygroup.com"
+      weight = 20
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    lineNos = true
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

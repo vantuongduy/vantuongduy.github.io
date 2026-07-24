@@ -1,0 +1,8 @@
+Migration completed.
+
+Markdown files: 136
+Image files: 178
+Theme: hugo-theme-learn (embedded)
+Languages: English and Vietnamese
+Base URL: https://vantuongduy.github.io/
+Architecture image: static/images/workshop/aws.jpg

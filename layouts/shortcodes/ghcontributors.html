@@ -1,0 +1,56 @@
+<style type="text/css">
+  .ghContributors {
+    display: flex;
+    flex-flow: wrap;
+    align-content: flex-start;
+  }
+
+  .ghContributors > div {
+    width: 50%;
+    display: inline-flex;
+    margin-bottom: 5px;
+  }
+  .ghContributors > div label {
+    padding-left: 4px;
+  }
+  .ghContributors > div span {
+    font-size: x-small;
+    padding-left: 4px;
+  }
+</style>
+
+{{/* 1. Lấy tham số repo hoặc url từ shortcode, ví dụ {{< ghcontributors repo="owner/repo" >}} */}}
+{{ $repo := .Get "repo" | default (.Get 0) }}
+{{ $url := printf "https://api.github.com/repos/%s/contributors" $repo }}
+
+<div class="ghContributors">
+  {{ $contributors := slice }}
+
+  {{/* 2. Gọi API lấy dữ liệu từ GitHub */}}
+  {{ with try (resources.GetRemote $url) }}
+    {{ with .Err }}
+      {{ warnf "Cannot load GitHub contributors from %s: %s" $url . }}
+    {{ else }}
+      {{ $contributors = .Value | transform.Unmarshal }}
+    {{ end }}
+  {{ end }}
+
+  {{/* 3. Lặp qua danh sách $contributors để hiển thị */}}
+  {{ range $contributors }}
+    <div>
+      <img
+        src="{{ .avatar_url }}"
+        class="inline"
+        width="32"
+        height="32"
+        style="
+          height: 32px;
+          margin-bottom: 0.25em;
+          vertical-align: middle;
+        "
+      />
+      <label><a href="{{ .html_url }}">@{{ .login }}</a></label>
+      <span class="contributions">{{ .contributions }} commits</span>
+    </div>
+  {{ end }}
+</div>
