@@ -1,7 +1,9 @@
 ---
 title: "Blog Posts"
 weight: 4
-description: "Three technical articles sharing AWS knowledge and practical experience."
+bookCollapseSection: true
 ---
 
-
+<script>
+window.location.replace("./4.1-blog1/");
+</script>

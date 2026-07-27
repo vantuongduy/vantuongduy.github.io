@@ -1,6 +1,9 @@
 ---
 title: "Workshop"
 weight: 6
-description: "The main technical project with architecture, deployment, testing, monitoring, security, and cleanup."
+bookCollapseSection: true
 ---
 
+<script>
+window.location.replace("./6.1-overview/");
+</script>

@@ -1,11 +1,11 @@
 ---
 title: "Chia sẻ và phản hồi"
 weight: 8
-chapter: true
+bookCollapseSection: true
 pre: "<b>8. </b>"
 ---
 
-# Chia sẻ và phản hồi
+
 
 Sau khi hoàn thành Workshop triển khai hệ thống **Enterprise HelpDesk trên nền tảng AWS**, người thực hiện đã có cơ hội tiếp cận quy trình triển khai một ứng dụng thực tế trên môi trường điện toán đám mây. Việc kết hợp nhiều dịch vụ của AWS trong cùng một kiến trúc giúp người học hiểu rõ hơn về cách xây dựng, vận hành và bảo vệ một hệ thống doanh nghiệp theo hướng hiện đại.
 

@@ -1,11 +1,11 @@
 ---
 title: "Sharing and Feedback"
 weight: 8
-chapter: true
+bookCollapseSection: true
 pre: "<b>8. </b>"
 ---
 
-# Sharing and Feedback
+
 
 After completing the **Enterprise HelpDesk on AWS** workshop, participants gain hands-on experience with deploying a real-world application in a cloud environment. By integrating multiple AWS services into a single solution, the workshop provides a comprehensive understanding of how to design, deploy, operate, and secure modern enterprise applications on AWS.
 

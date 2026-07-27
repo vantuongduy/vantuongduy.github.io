@@ -1,7 +1,9 @@
 ---
 title: "Worklog"
 weight: 2
-description: "Weekly activities and outcomes from Week 1 to Week 12."
+bookCollapseSection: true
 ---
 
-
+<script>
+window.location.replace("./2.1-week1/");
+</script>

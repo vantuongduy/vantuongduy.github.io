@@ -1,7 +1,9 @@
 ---
 title: "Events Participated"
 weight: 5
-description: "Events, evidence of participation, lessons learned, and personal contributions."
+bookCollapseSection: true
 ---
 
-
+<script>
+window.location.replace("./5.1-event1/");
+</script>

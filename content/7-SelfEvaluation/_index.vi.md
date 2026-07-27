@@ -1,11 +1,11 @@
 ---
 title: "Tự đánh giá"
 weight: 7
-chapter: true
+bookCollapseSection: true
 pre: "<b>7. </b>"
 ---
 
-# Tự đánh giá
+
 
 Sau khi hoàn thành Workshop triển khai hệ thống **Enterprise HelpDesk trên nền tảng AWS**, người thực hiện đã đạt được nhiều kiến thức và kỹ năng thực tế trong việc xây dựng, triển khai và vận hành một ứng dụng theo mô hình điện toán đám mây. Thông qua quá trình thực hành, các dịch vụ của AWS được kết hợp thành một kiến trúc hoàn chỉnh, đáp ứng các yêu cầu về khả năng mở rộng, tính sẵn sàng, giám sát và bảo mật.
 

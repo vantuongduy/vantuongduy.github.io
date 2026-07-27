@@ -1,7 +1,9 @@
 ---
 title: "Bài viết"
 weight: 4
-description: "Ba bài viết kỹ thuật chia sẻ kiến thức AWS và kinh nghiệm thực tế."
+bookCollapseSection: true
 ---
 
-
+<script>
+window.location.replace("./4.1-blog1/");
+</script>

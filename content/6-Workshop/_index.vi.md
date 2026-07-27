@@ -1,7 +1,9 @@
 ---
-title: "Workshop"
+title: "Hội Thảo"
 weight: 6
-description: "Dự án kỹ thuật chính gồm kiến trúc, triển khai, kiểm thử, giám sát, bảo mật và dọn dẹp."
+bookCollapseSection: true
 ---
 
-
+<script>
+window.location.replace("./6.1-overview/");
+</script>

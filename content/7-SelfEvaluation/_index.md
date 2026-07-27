@@ -1,11 +1,11 @@
 ---
 title: "Self-Assessment"
 weight: 7
-chapter: true
+bookCollapseSection: true
 pre: "<b>7. </b>"
 ---
 
-# Self-Assessment
+
 
 After completing the **Enterprise HelpDesk on AWS** workshop, participants will have gained valuable knowledge and practical experience in designing, deploying, and operating a cloud-based application. Throughout the hands-on exercises, multiple AWS services are integrated into a complete solution that delivers scalability, high availability, monitoring, and security.
 
